@@ -44,6 +44,23 @@ img {
 }
 
 
+@media (max-width: 739px) {
+
+  .top {
+    position: absolute;
+    left: -300px;
+    top: -470px;
+    z-index: -1;
+  }
+  .botton {
+    position: absolute;
+    right: -800px;
+    bottom: -400px;
+    z-index: -1;
+  }
+}
+
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -62,6 +79,17 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+@media (max-width: 739px) {
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  .container-card {
+    max-width: 326px;
+  }
 }
 
 
@@ -114,6 +142,15 @@ img {
   width: 350px;
   border: 1px solid  #E8E9EC;
 }
+
+
+@media (max-width: 739px) {
+  
+  .line {
+    width: 326px;
+  }
+}
+
 
 
 .footer {
@@ -169,53 +206,4 @@ img {
   margin-top: 7px;
   letter-spacing: 1.5px;
 }
-
-
-
-@media only screen and (max-width: 375px) {
-  
-
-body {
-  overflow: hidden;
-}
-   
-
-  .container {
-    max-width: 375px;
-    margin: 0 auto;
-  }
-
-  .container-card {
-    max-width: 326px;
-  }
-
-  .line {
-    width: 326px;
-  }
-
-
-
-  .top {
-    position: absolute;
-    left: -300px;
-    top: -470px;
-    z-index: -1;
-  }
-  
-  
-  .botton {
-    position: absolute;
-    right: -800px;
-    bottom: -400px;
-    z-index: -1;
-  }
-  
-
-
-
-
-
-}
-
-
 
